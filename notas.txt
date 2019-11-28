@@ -1,0 +1,8 @@
+No funciona bien el ultimo caso de tour of heroes, en el archivo hero-search.component.ts no anda bien 
+heroes: Observable<Hero[]>;
+
+tal vez podria ser 
+
+heroes$: Observable<Hero[]>; pero tira error
+
+dia 11/27/2019
